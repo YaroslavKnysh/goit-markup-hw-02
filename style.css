@@ -1,3 +1,12 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
+button {
+  cursor: pointer;
+}
+
+.hide-title {
+  display: none;
 }
