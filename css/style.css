@@ -1,0 +1,68 @@
+:root {
+  --main-color: #212121;
+  --logoweb: #2196f3;
+  --logo: #000;
+  --background-color: #e5e5e5;
+  --text-color: #757575;
+  --secondary-text-color: #ffffff;
+  --text-selection: #2196f3;
+  --button: #2196f3;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+  background-color: var(--background-color);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  color: var(--secondary-text-color);
+  background-color: var(--button);
+  cursor: pointer;
+}
+
+.site-nav-link:hover,
+.contacts-link:hover,
+.site-nav-link:focus,
+.contacts-link:focus {
+  color: var(--text-selection);
+}
+
+.hide-title {
+  display: none;
+}
+
+.solutions-format {
+  background-color: #2f303a;
+}
+.solutions-title {
+  font-weight: 900;
+  color: var(--secondary-text-color);
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: var(--logo);
+}
+
+.logo-web {
+  color: var(--logoweb);
+}
+
+/* Цвет основного текста  #212121 */
+/* Вторичный цвет текста #757575 #FFFFFF */
+/* Цвет лого #000000 #2196f3 */
+/* Цвет выделения и кнопок #2196f3 */
