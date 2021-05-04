@@ -2,6 +2,7 @@
   --main-color: #212121;
   --logoweb: #2196f3;
   --logo: #000;
+  --secondary-bg-color: #2f303a;
   --background-color: #e5e5e5;
   --text-color: #757575;
   --secondary-text-color: #ffffff;
@@ -44,12 +45,20 @@ a {
 .contacts-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
-  font-style: normal;
+  line-height: 1.17;
+}
+.contacts-link {
+  color: var(--text-color);
 }
 .footer-contacts-link {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
-
+.footer {
+  background-color: var(--secondary-bg-color);
+}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -79,7 +88,7 @@ a {
 }
 
 .solutions-format {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
 }
 .solutions-title {
   font-weight: 900;
@@ -90,9 +99,6 @@ a {
 }
 
 /* Наши особенности */
-.hide-title {
-  display: none;
-}
 
 .features-list-title {
   font-weight: 700;
