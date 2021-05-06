@@ -62,7 +62,7 @@ a {
 .footer-link {
   opacity: 60%;
 }
-.footer {
+.page-footer {
   background-color: var(--secondary-bg-color);
 }
 .logo {
